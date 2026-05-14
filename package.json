@@ -1,0 +1,17 @@
+{
+  "name": "footsystem-erp",
+  "version": "1.0.0",
+  "description": "ERP para fábricas de calçados - FootSystem by Pedro Mustafe",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "better-sqlite3": "^11.5.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5"
+  }
+}
